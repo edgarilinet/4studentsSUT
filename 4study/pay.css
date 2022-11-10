@@ -1,0 +1,32 @@
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+.all{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #f0f0f0;
+}
+
+.tm-header{
+  background-color: #303b44;
+  position: relative;
+  z-index: 70;
+  display: block;
+  height: 48px;
+}
+
+.menu{
+  position: sticky;
+  top: 0;
+  z-index: 60;
+  background-color: #fff;
+  border-bottom: 1px solid #dedede;
+}
+
+.header{
+  margin: 0 auto;
+  min-width: 320px;
+}
